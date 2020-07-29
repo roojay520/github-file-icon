@@ -1,0 +1,32 @@
+{
+  "name": "github-file-icon",
+  "version": "1.0.0",
+  "description": "change github file icon",
+  "homepage": "https://github.com/roojay520/github-file-icon",
+  "repository": "https://github.com/roojay520/github-file-icon.git",
+  "author": "roojay <roojay520@gmail.com>",
+  "license": "MIT",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rollup -c",
+    "install": "node init.js && npm run build"
+  },
+  "dependencies": {
+    "dom-loaded": "^2.0.0",
+    "file-icons-js": "^1.0.3",
+    "select-dom": "^6.0.2"
+  },
+  "keywords": ["github", "github-file-icon"],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "esbuild": "^0.6.10",
+    "fs-extra": "^9.0.1",
+    "rollup": "^2.23.0",
+    "rollup-plugin-esbuild": "^2.4.2",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0"
+  }
+}
