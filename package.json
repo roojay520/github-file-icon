@@ -10,14 +10,17 @@
   "scripts": {
     "dev": "nodemon",
     "build": "rollup -c",
-    "install": "node init.js && npm run build"
+    "install": "node init.js"
   },
   "dependencies": {
     "dom-loaded": "^2.0.0",
     "file-icons-js": "^1.0.3",
     "select-dom": "^6.0.2"
   },
-  "keywords": ["github", "github-file-icon"],
+  "keywords": [
+    "github",
+    "github-file-icon"
+  ],
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-json": "^4.1.0",
